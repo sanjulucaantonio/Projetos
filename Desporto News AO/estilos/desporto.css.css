@@ -118,5 +118,17 @@ header{
     visibility: visible;
 }
 
+main{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 
 

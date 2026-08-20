@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media(min-width:768px) and (max-width:998px){
+    #btn-abrir{
+        display: none;
+    }
+
+    #btn-fechar{
+        display: none;
+    }
+
+    #menu{
+        position: static;
+        width: 100%;
+        height: auto;
+        transform: none;
+        transition: none;
+        padding: 15px 30px;
+        background: gray;
+    }
+
+    #menu ul{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin: 0;
+    }
+
+    #menu li{
+        margin: 0;
+    }
+
+    #menu a{
+        font-size: 17px;
+    }
+    #overlay{
+        display: none;
+    }
+}

@@ -43,16 +43,18 @@ header{
     position: absolute;
     bottom: 5px;
     left: 5px;
+    color: white;
     
 }
 #btn-fechar{
     display: block;
     margin-left: auto;
+    color: white;
 }
 #btn-abrir, #btn-fechar{
     border: none;
     background: none;
-    color: red;
+    
     cursor: pointer;
     font-size: 35px;
 }
@@ -67,7 +69,7 @@ header{
     transition: transform 0.4s ease;
     z-index: 1000;
     padding: 20px;
-    background: gray;
+    background: black;
 }
 
 #menu ul{
@@ -84,7 +86,7 @@ header{
     text-decoration: none;
     font-weight: bold;
     font-size: 17px;
-    color: black;
+    color: white;
     transition:0.2s ;
 
 }
@@ -119,9 +121,36 @@ header{
 main{
     width: 100%;
     max-width: 600px;
+    background: #fcfafa;
     margin: auto;
     flex: 1;
 }
+
+.conteudo{
+    padding: 15px;
+    
+}
+
+.conteudo h1{
+    font-size: 30px;
+    line-height: 1.4;
+    color: red;
+}
+
+.conteudo h2,h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.conteudo p{
+    line-height: 1.6;
+    text-align: left;
+    text-indent: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 
 img{
     width: 100%;

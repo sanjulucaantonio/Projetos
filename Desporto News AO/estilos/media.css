@@ -5,6 +5,9 @@
         width: 100%;
         max-width: 700px;
     }
+    .cabessa h1{
+        font-size: 33px;
+    }
     #btn-abrir{
         display: none;
     }
@@ -20,7 +23,7 @@
         transform: none;
         transition: none;
         padding: 15px 30px;
-        background: gray;
+        background: black;
     }
 
     #menu ul{
@@ -36,6 +39,11 @@
 
     #menu a{
         font-size: 16px;
+         color: orangered;
+    }
+
+    #menu a:hover{
+        color: white;
     }
     #overlay{
         display: none;
@@ -47,6 +55,9 @@
         width: 100%;
         max-width: 900px;
     }
+     .cabessa h1{
+        font-size: 33px;
+    }
      #btn-abrir{
         display: none;
     }
@@ -62,7 +73,7 @@
         transform: none;
         transition: none;
         padding: 15px 30px;
-        background: gray;
+        background: black;
     }
 
     #menu ul{
@@ -78,6 +89,10 @@
 
     #menu a{
         font-size: 16px;
+         color: orangered;
+    }
+     #menu a:hover{
+        color: white;
     }
     #overlay{
         display: none;
@@ -89,6 +104,9 @@
         width: 100%;
         max-width: 1000px;
     }
+     .cabessa h1{
+        font-size: 35px;
+    }
      #btn-abrir{
         display: none;
     }
@@ -104,7 +122,7 @@
         transform: none;
         transition: none;
         padding: 15px 30px;
-        background: gray;
+        background: black;
     }
 
     #menu ul{
@@ -120,6 +138,10 @@
 
     #menu a{
         font-size: 16px;
+        color: orangered;
+    }
+     #menu a:hover{
+        color: white;
     }
     #overlay{
         display: none;

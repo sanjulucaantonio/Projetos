@@ -140,8 +140,11 @@ main{
 .conteudo h2,h3{
     margin-top: 10px;
     margin-bottom: 10px;
-    color: red;
+    
 }
+
+
+
 
 .conteudo p{
     line-height: 1.6;

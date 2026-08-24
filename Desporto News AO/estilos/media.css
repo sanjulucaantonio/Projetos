@@ -48,6 +48,29 @@
     #overlay{
         display: none;
     }
+   .formulario{
+    margin: auto;
+   }
+    fieldset{
+        width: 100%;
+        max-width: 700px;
+        padding: 20px;
+
+    }
+    form{
+        width: 100%;
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .linha{
+        display: flex;
+        flex-direction: row;
+    }
+    input{
+        width: 90%;
+        max-width: 550px;
+    }
 }
 
 @media (min-width:1025px) and (max-width:1440px){
@@ -97,6 +120,29 @@
     #overlay{
         display: none;
     }
+    .formulario{
+    margin: auto;
+   }
+    fieldset{
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+
+    }
+    form{
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .linha{
+        display: flex;
+        flex-direction: row;
+    }
+    input{
+        width: 100%;
+        max-width: 550px;
+    }
 }
 
 @media(min-width:1440px){
@@ -145,5 +191,28 @@
     } 
     #overlay{
         display: none;
+    }
+    .formulario{
+    margin: auto;
+   }
+    fieldset{
+        width: 100%;
+        max-width: 900px;
+        padding: 20px;
+
+    }
+    form{
+        width: 100%;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .linha{
+        display: flex;
+        flex-direction: row;
+    }
+    input{
+        width: 100%;
+        max-width: 550px;
     }
 }

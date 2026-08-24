@@ -161,6 +161,65 @@ img{
     border-radius: 10px;
 }
 
+     .formulario{
+           width: 100%;
+           max-width: 600px;
+        }
+        fieldset{
+            width: 100%;
+            max-width: 600px;
+            padding: 10px;
+
+        }
+        form{
+           width: 100%;
+           max-width: 500px;
+           margin: auto;
+        }
+        .linha{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .campo{
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;
+            flex: 1;
+        }
+
+        textarea{
+            width: 100%;
+            max-width: 400px;
+            margin-top: 8px;
+            margin-bottom: 5px;
+             border: 1px solid gray;
+            border-radius: 8px;
+        }
+
+        input[type="text"], input[type="email"]{
+            width: 100%;
+            max-width: 400px;
+            padding: 10px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            border: 1px solid gray;
+            border-radius: 8px;
+            
+        }
+        button{
+            padding: 8px;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            background: red;
+            color: white;
+        }
+
+        button:hover{
+            background: #480101;
+        }
+
 footer{
     padding: 10px;
     background: black;

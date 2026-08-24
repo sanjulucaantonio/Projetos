@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="estilos/media.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>Contacto</title>
+    
 </head>
 <body>
     <header>
@@ -38,7 +39,41 @@ close
 
 <div id="overlay"></div>
     <main>
-
+        <section class="conteudo">
+            <h1>Entre em contacto</h1>
+            <p>
+                Tem alguma duvida, sugestão ou infrmação sobre o desporto angolano? Entre em contacto connosco.
+            </p>
+            <div class="formulario">
+                
+                <form action="#" method="post" autocomplete="on">
+                    <fieldset>
+                        <div class="linha">
+                            <div class="campo">
+                                <label for="inome">Nome</label>
+                                <input type="text" name="Nome" id="inome" required placeholder="Digite o seu nome">
+                            </div>
+                                <div class="campo">
+                                    <label for="iemail">E-mail</label>
+                                    <input type="email" name="E-mail" id="iemail" required>
+                                </div>
+                        </div>
+                        
+                            <div class="campo">
+                                <label for="iassunt">Assunto</label>
+                                <input type="text" name="Assunto" id="iassunto" required>
+                            </div>
+                            <div class="campo">
+                                 <label for="imenss">Menssagem</label>
+                                <textarea name="Menssagem" id="imens" required rows="6" cols="5" >
+                                </textarea>
+                            </div>
+                        <button type="submit">Enviar</button>
+                    </fieldset>
+                </form>
+                
+            </div>
+        </section>
     </main>
     <footer>
    Desporto News AO &copy; 2026 - Todos os direitos reservados. Desenvolvido por <a href="https://github.com/sanjulucaantonio">Sanjuluca António</a> | Web Developer

@@ -48,29 +48,27 @@
     #overlay{
         display: none;
     }
-   .formulario{
-    margin: auto;
+   form{
+    width: 100%;
+    max-width: 700px;
+   margin: auto;
    }
-    fieldset{
-        width: 100%;
-        max-width: 700px;
-        padding: 20px;
 
-    }
-    form{
-        width: 100%;
-        max-width: 700px;
-        margin: auto;
-    }
+   fieldset{
+    width: 100%;
+    max-width: 700px;
+   }
+  .linha{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
 
-    .linha{
-        display: flex;
-        flex-direction: row;
-    }
-    input{
-        width: 90%;
-        max-width: 550px;
-    }
+input[type="text"],input[type="email"]{
+    width: 90%;
+    max-width: 400px;
+}
+
 }
 
 @media (min-width:1025px) and (max-width:1440px){
@@ -120,29 +118,28 @@
     #overlay{
         display: none;
     }
-    .formulario{
-    margin: auto;
+     form{
+    width: 100%;
+    max-width: 750px;
+   margin: auto;
    }
-    fieldset{
-        width: 100%;
-        max-width: 800px;
-        padding: 20px;
 
-    }
-    form{
-        width: 100%;
-        max-width: 800px;
-        margin: auto;
-    }
+   fieldset{
+    width: 100%;
+    max-width: 750px;
+   }
+  .linha{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
 
-    .linha{
-        display: flex;
-        flex-direction: row;
-    }
-    input{
-        width: 100%;
-        max-width: 550px;
-    }
+input[type="text"],input[type="email"]{
+    width: 90%;
+    max-width: 400px;
+}
+   
+    
 }
 
 @media(min-width:1440px){
@@ -192,27 +189,25 @@
     #overlay{
         display: none;
     }
-    .formulario{
-    margin: auto;
+     form{
+    width: 100%;
+    max-width: 700px;
+   margin: auto;
    }
-    fieldset{
-        width: 100%;
-        max-width: 900px;
-        padding: 20px;
 
-    }
-    form{
-        width: 100%;
-        max-width: 900px;
-        margin: auto;
-    }
+   fieldset{
+    width: 100%;
+    max-width: 700px;
+   }
+  .linha{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
 
-    .linha{
-        display: flex;
-        flex-direction: row;
-    }
-    input{
-        width: 100%;
-        max-width: 550px;
-    }
+input[type="text"],input[type="email"]{
+    width: 90%;
+    max-width: 400px;
+}
+   
 }

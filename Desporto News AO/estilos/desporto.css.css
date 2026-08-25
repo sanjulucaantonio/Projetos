@@ -196,7 +196,9 @@ input[type="text"],input[type="email"]{
 }
 
 textarea{
+    
     margin-top: 8px;
+   
 }
 
 button{

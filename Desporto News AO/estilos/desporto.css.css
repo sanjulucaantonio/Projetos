@@ -207,6 +207,7 @@ button{
     border-radius: 8px;
     font-weight: bold;
     background: red;
+    color: black;
 }
 
 button:hover{

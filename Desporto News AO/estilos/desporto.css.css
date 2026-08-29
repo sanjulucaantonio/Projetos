@@ -17,31 +17,22 @@ body{
 header{
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 9px;
     background: black;
     color: white;
     
 }
-.cabessa{
-    text-align: center;
-}
+
 .cabessa h1{
-    margin-bottom: 15px;
     color: red;
     font-variant: small-caps;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
 }
-.cabessa p{
-    margin-bottom: 15px;
-    font-size: 15px;
-    line-height: 1.6;
-}
+
 #btn-abrir{
-    position: absolute;
-    bottom: 5px;
     left: 5px;
     color: white;
     

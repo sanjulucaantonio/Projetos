@@ -8,46 +8,6 @@
     .cabessa h1{
         font-size: 33px;
     }
-    #btn-abrir{
-        display: none;
-    }
-
-    #btn-fechar{
-        display: none;
-    }
-
-    #menu{
-        position: static;
-        width: 100%;
-        height: auto;
-        transform: none;
-        transition: none;
-        padding: 15px 30px;
-        background: black;
-    }
-
-    #menu ul{
-        display: flex;
-        justify-content: center;
-        gap: 30px;
-        margin: 0;
-    }
-
-    #menu li{
-        margin: 0;
-    }
-
-    #menu a{
-        font-size: 16px;
-         color: orangered;
-    }
-
-    #menu a:hover{
-        color: white;
-    }
-    #overlay{
-        display: none;
-    }
    form{
     width: 100%;
     max-width: 700px;
@@ -76,8 +36,20 @@ input[type="text"],input[type="email"]{
         width: 100%;
         max-width: 900px;
     }
+    header{
+        padding: 30px;
+    }
+    .cabessa{
+        padding: 30px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
      .cabessa h1{
         font-size: 33px;
+       
+        
     }
      #btn-abrir{
         display: none;
@@ -93,8 +65,9 @@ input[type="text"],input[type="email"]{
         height: auto;
         transform: none;
         transition: none;
-        padding: 15px 30px;
-        background: black;
+        padding:15px 30px ;
+        
+        
     }
 
     #menu ul{
@@ -102,6 +75,7 @@ input[type="text"],input[type="email"]{
         justify-content: center;
         gap: 30px;
         margin: 0;
+        
     }
 
     #menu li{

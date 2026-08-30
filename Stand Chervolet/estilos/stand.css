@@ -20,7 +20,11 @@ header{
     align-items: center;
     padding: 10px;
 }
-
+.cabessa p{
+ text-align: center;
+ font-variant: small-caps;
+ margin-top: 0;
+}
 #btn-abrir,#btn-fechar{
      border: none;
      cursor: pointer;
@@ -91,8 +95,16 @@ header{
 }
 
 main{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
     flex: 1;
     
+}
+.titulo h1,p{
+ text-align: center;
+ margin-top: 10px;
+ margin-bottom: 5px;
 }
 a{
     text-decoration: none;

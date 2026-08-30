@@ -101,10 +101,30 @@ main{
     flex: 1;
     
 }
-.titulo h1,p{
- text-align: center;
- margin-top: 10px;
- margin-bottom: 5px;
+.conteudo{
+    padding: 10px;
+}
+.conteudo h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.conteudo h2{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.conteudo p{
+    text-align: left;
+    text-indent: 8px;
+    line-height: 1.6;
+    font-size: 17px;
+}
+.btnp{
+    font-weight: bold;
+    color: blue;
+    border: none;
+    background: none;
 }
 a{
     text-decoration: none;

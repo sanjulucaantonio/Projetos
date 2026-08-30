@@ -8,6 +8,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
+    min-height: 100vh;
     flex-direction: column;
     overflow-x: hidden;
 }
@@ -20,13 +21,17 @@ header{
     padding: 10px;
 }
 
-#btn-abrir{
-     
+#btn-abrir,#btn-fechar{
+     border: none;
+     cursor: pointer;
+     background: none;
+     color: black;
 }
 
 #btn-fechar{
  display: flex;
  margin-left: auto;
+ color: white;
 }
 #menu{
     position: fixed;
@@ -83,4 +88,20 @@ header{
 #overlay.aberto{
     opacity: 1;
     visibility: visible;
+}
+
+main{
+    flex: 1;
+    
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
